@@ -1,0 +1,13 @@
+.spaceInfoContainer {
+}
+.spaceInfoContainer {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  width: 100%;
+
+  display: flex; /* 플렉스박스 레이아웃 적용 */
+}

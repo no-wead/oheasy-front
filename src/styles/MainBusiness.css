@@ -1,0 +1,18 @@
+/* 회색 선 스타일 */
+.gray-line {
+  margin-top: 30px;
+  height: 1px;
+  background-color: #ccc; /* 선의 색상을 회색으로 설정 */
+  width: 100%; /* 선의 너비를 부모 요소의 전체 너비로 설정 */
+}
+
+.filterContainer {
+  padding: 1rem;
+  background-color: var(--white);
+  border-radius: 1.5rem;
+  width: 100%;
+
+  display: flex; /* 플렉스박스 레이아웃 적용 */
+  align-items: center; /* 수직 방향 중앙 정렬 */
+  justify-content: center; /* 수평 방향 중앙 정렬 */
+}

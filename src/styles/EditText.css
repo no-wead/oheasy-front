@@ -1,0 +1,6 @@
+input {
+  background-color: transparent; /* 배경색을 투명하게 설정합니다. */
+  border: none; /* 모든 테두리를 제거합니다. */
+  border-bottom: 1px solid black; /* 하단에만 검정색 테두리를 추가합니다. */
+  outline: none; /* 입력 필드 선택 시 나타나는 기본 윤곽선을 제거합니다. */
+}

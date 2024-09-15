@@ -1,0 +1,25 @@
+.wrapper {
+  height: auto;
+  min-height: 100%;
+}
+.footer {
+  transform: translateY(-100%);
+
+  height: 60px;
+  position: relative;
+  border-top: 1px solid #0000;
+}
+/* 전화번호 입력 등 숫자에 +- 하는거 없애기 */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none; /* 웹킷 브라우저에서 스핀 버튼 제거 */
+  margin: 0; /* 크롬에서 요소 간격 제거 */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* 파이어폭스에서 스핀 버튼 제거 */
+}
+/*전시 생성 달력 너비*/
+.SingleInputDateRangeFieldCustom input {
+  width: 90% !important; /* 너비를 80%로 강제 적용 */
+}

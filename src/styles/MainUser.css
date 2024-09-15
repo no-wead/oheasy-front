@@ -1,0 +1,13 @@
+/* 회색 선 스타일 */
+.gray-line {
+  height: 0.5px;
+  background-color: #ccc; /* 선의 색상을 회색으로 설정 */
+  width: 100%; /* 선의 너비를 부모 요소의 전체 너비로 설정 */
+}
+
+.line {
+  height: 1px;
+  background-color: #000; /* 선의 색상을 회색으로 설정 */
+  width: 100%; /* 선의 너비를 부모 요소의 전체 너비로 설정 */
+  margin-bottom: 20px;
+}

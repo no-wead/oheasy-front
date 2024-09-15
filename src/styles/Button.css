@@ -1,0 +1,28 @@
+.Button {
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px, 20px; /**/
+  font-size: 10px;
+  white-space: nowrap; /* 화면이 줄어도 글자 줄바꿈x */
+}
+/* 배경색 투명에 글자 선택된 경우 => 글자 굵은 검정 */
+.Button_bold {
+  font-weight: bold;
+  color: black;
+}
+/* 배경색 투명에 글자 미선택=> 글자 회색  */
+.Button_thin {
+  font-style: normal;
+  color: grey;
+}
+
+/* 배경색 검정에 글자 흰색 */
+.Button_black-background-white-text {
+  background-color: black;
+  color: white;
+  padding: 10px 20px; /* 상하 10px, 좌우 20px의 패딩을 추가 */
+  border: 1px solid #000;
+  border-radius: 0;
+}

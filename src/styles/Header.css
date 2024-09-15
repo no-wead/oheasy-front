@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  position: relative; /* 상대적 포지셔닝 기준 제공 */
+  height: 120px; /* titleContainer의 높이와 동일하게 조정 */
+}
+
+.titleContainer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 50px;
+  text-align: left;
+  font-family: 'NanumMyeongjo';
+}
+
+.line {
+  height: 1px;
+  background-color: #000; /* 선의 색상을 회색으로 설정 */
+  width: 100%; /* 선의 너비를 부모 요소의 전체 너비로 설정 */
+  margin-bottom: 20px;
+}
+
+.header-right-section {
+  position: absolute;
+  bottom: 10px; 
+  right: 0; /* 화면 오른쪽에서의 위치 */
+  display: flex;
+  text-align: right;
+}
+
+.header-right-section button {
+  right: 0;
+  font-size: 16px; /* 글자 크기를 24px로 설정 */
+  border: 1px solid #000;
+  border-radius: 0;
+  margin-left: 10px;
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.ttf) format("truetype");
+}

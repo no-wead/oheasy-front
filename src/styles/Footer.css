@@ -1,0 +1,51 @@
+/* styles.css */
+
+footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 0 15%;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end; 
+}
+
+.left-section{
+  margin: 20px 0;
+}
+
+.customer-center {
+  margin: 20px 0;
+  margin-left: -10%;
+}
+
+.right-section {
+  margin: 20px 0;
+}
+
+.left-section p,
+.customer-center p {
+  font-size: 12px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.right-section img {
+  width: 40px; /* 이미지 너비를 현재 크기의 절반으로 설정합니다. */
+  height: auto; /* 이미지 높이를 자동으로 조정하여 가로세로 비율을 유지합니다. */
+  margin-right: 15px;
+}
+
+.footer-logo {
+  font-family: 'NanumMyeongjo';
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.eot);
+  src: url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/NanumMyeongjo/NanumMyeongjo.ttf) format("truetype");
+}

@@ -1,0 +1,20 @@
+.selector-item1, .selector-item2, .selector-item3 {
+    padding: 10;
+    color: "black";
+    font-size: 15px;
+  }
+
+
+.label {
+    padding: 10;
+    font-size: 15px;
+    font-weight: 1000;
+    color: "black";
+}
+
+.value {
+    font-size: 15px;
+    color: "black";
+    padding: 10;
+    margin-left: 17;
+}

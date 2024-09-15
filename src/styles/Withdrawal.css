@@ -1,0 +1,21 @@
+.withdrawalContainer {
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+
+  width: 100%; /* 혹은 원하는 너비 */
+}
+
+/* 마우스 호버 시 하이라이트 효과를 확장 */
+div:hover .highlight:after {
+  width: 100%;
+}
+
+.highlight {
+  background: #d9fcdb; /* 하이라이트 색상 */
+  font-weight: bold;
+}

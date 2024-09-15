@@ -1,0 +1,6 @@
+span {
+  text-decoration-color: black; /* 밑줄의 색상을 검정으로 지정합니다. */
+  font-size: 15px;
+  font-style: bold;
+  margin-right: 10px;
+}
