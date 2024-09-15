@@ -3,7 +3,7 @@
 import axios from "axios";
 import { jsx } from "react/jsx-runtime";
 // 변수명 임시 지정
-const DOMAIN = "https://www.wooriarte.store/api"; // TODO: 도메인 주소 확인 필요!!!!
+const DOMAIN = "http://front-alb-1452791154.ap-northeast-2.elb.amazonaws.com/api"; // TODO: 도메인 주소 확인 필요!!!!
 
 //?----------------------------- 공간대여자 url
 const LoginSpace_URL = () => `${DOMAIN}/space-rentals/login`; //! url수정 완
